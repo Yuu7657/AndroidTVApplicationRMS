@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.AndroidTVApplicationRMS" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Personaliza aquí -->
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+</resources>

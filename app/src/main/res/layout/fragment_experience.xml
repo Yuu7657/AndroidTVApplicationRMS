@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/experience_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Experiencia Académica y Profesional"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/experience_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Empresa 1: Cargo y descripción\n• Empresa 2: Cargo y descripción\n• Universidad: Carrera y logros"
+            android:textColor="#CCCCCC"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</ScrollView>

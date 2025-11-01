@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:contentDescription="Foto de perfil"
+        android:scaleType="centerCrop"
+        android:background="@drawable/circle_background"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ricardo Mejía Santillán"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:shadowColor="#80000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"
+        android:background="#66000000"
+        android:padding="8dp"
+        app:layout_constraintTop_toBottomOf="@id/avatar"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/profession"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ingeniero en Desarrollo y Gestión de Software"
+        android:textColor="#CCCCCC"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:shadowColor="#80000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="3"
+        android:background="#66000000"
+        android:padding="6dp"
+        app:layout_constraintTop_toBottomOf="@id/name"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Joven de 20 años apasionado por la innovación tecnológica, con intereses en IA, Data Science, Procesamiento de Lenguaje Natural y Desarrollo Móvil. Me gusta programar en Python y aprender nuevos frameworks. Busco crecer profesionalmente y consolidar una carrera estable."
+        android:textColor="#CCCCCC"
+        android:textSize="16sp"
+        android:lineSpacingExtra="4dp"
+        android:justificationMode="inter_word"
+        android:shadowColor="#80000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="3"
+        android:background="#66000000"
+        android:padding="6dp"
+        app:layout_constraintTop_toBottomOf="@id/profession"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="32dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
